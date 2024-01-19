@@ -1,1 +1,1 @@
-
+The notebooks used to train neural network models are provided here. Additionally, the trained TensorFlow neural network models are provided as zip files. Finally, the output of the script is provided as HTML files. 
