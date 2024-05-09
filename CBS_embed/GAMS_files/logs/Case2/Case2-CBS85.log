@@ -2,30 +2,30 @@ Warning: no access to tty (Bad file descriptor).
 Thus no job control in this shell.
 SHELL=/bin/csh
 Hostname=ce-l208
-Scratch dir=/work/tk3016/gams/Case2_CBS.2751219.wk
+Scratch dir=/work/tk3016/gams/Case2_CBS.2751251.wk
 Parameters=
-Gams command= gams  Case2_CBS.gms procDirPath=/work/tk3016/gams/Case2_CBS.2751219.wk O=Case2_CBS.2751219.lst lo=3 SolveLink=5 
+Gams command= gams  Case2_CBS.gms procDirPath=/work/tk3016/gams/Case2_CBS.2751251.wk O=Case2_CBS.2751251.lst lo=3 SolveLink=5 
 Allocated cpu cores= 24
 Requested Gams threads= 24
 Allocated Gams threads= 24
---- Job Case2_CBS.gms Start 05/09/24 08:41:51 41.1.0 1682d454 LEX-LEG x86 64bit/Linux
+--- Job Case2_CBS.gms Start 05/09/24 15:47:18 42.3.0 dacf7d8e LEX-LEG x86 64bit/Linux
 --- Applying:
-    /rvol/GAMS/gams41.1_linux_x64_64_sfx/gmsprmun.txt
+    /rvol/GAMS/gams42.3_linux_x64_64_sfx/gmsprmun.txt
 --- GAMS Parameters defined
     Input /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS.gms
-    Output /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS.2751219.lst
-    ScrDir /work/tk3016/gams/Case2_CBS.2751219.wk/225a/
-    SysDir /rvol/GAMS/gams41.1_linux_x64_64_sfx/
+    Output /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS.2751251.lst
+    ScrDir /work/tk3016/gams/Case2_CBS.2751251.wk/225a/
+    SysDir /rvol/GAMS/gams42.3_linux_x64_64_sfx/
     LogOption 3
     SolveLink 5
     Threads 24
-    ProcDirPath /work/tk3016/gams/Case2_CBS.2751219.wk
+    ProcDirPath /work/tk3016/gams/Case2_CBS.2751251.wk
 Licensee: Medium MUD - 10 User License                   S230530|0002AP-LNX
           Imperial College London, Centre for Process Systems EngineerDC621
           /rvol/GAMS/res/.rtspvr3/GAMS/gamslice.txt
           License Admin: Graham Stuart, g.stuart@imperial.ac.uk            
 Processor information: 2 socket(s), 24 core(s), and 24 thread(s) available
-GAMS 41.1.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+GAMS 42.3.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- Starting compilation
 --- Case2_CBS.gms(38) 3 Mb
 --- GDXin=/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS3.gdx
@@ -61,7 +61,7 @@ GAMS 41.1.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
 --- GDXin=/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS3.gdx
 --- GDX File ($gdxIn) /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS3.gdx
 --- Case2_CBS.gms(663) 3 Mb
---- Starting execution: elapsed 0:00:00.035
+--- Starting execution: elapsed 0:00:00.034
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -75,13 +75,13 @@ GAMS 41.1.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.763E-10, 2.723E+04] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:00:00.048
+--- Executing SBB (Solvelink=2): elapsed 0:00:00.045
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 574 rows, 2682 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -140,7 +140,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Integer solution
  Statistics:
     Iterations    :             13996
-    NLP Seconds   :         12.089000
+    NLP Seconds   :         12.159000
     B&B nodes     :                 9
     MIP solution  :          0.998630 found in node 5
     Best possible :          0.998630
@@ -163,7 +163,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          0
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:00:12.227
+--- Executing after solve: elapsed 0:00:12.248
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -177,13 +177,13 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 8.476E-17, 2.724E+04] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:00:12.234
+--- Executing SBB (Solvelink=2): elapsed 0:00:12.255
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 575 rows, 2698 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -266,7 +266,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 
  Solution not printed
  Time for solving problem                       0.06 seconds
- Time for constraint functions                  0.06 seconds
+ Time for constraint functions                  0.00 seconds
  Time for objective function                    0.00 seconds
 
  Root node solved locally optimal.
@@ -301,7 +301,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Integer solution
  Statistics:
     Iterations    :             22187
-    NLP Seconds   :          3.781001
+    NLP Seconds   :          3.747000
     B&B nodes     :                25
     Ignored nodes :                 1
     MIP solution  :          0.549276 found in node 14
@@ -323,7 +323,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          1
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:00:16.085
+--- Executing after solve: elapsed 0:00:16.069
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -337,13 +337,13 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 4.621E-17, 6.000E+02] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:00:16.092
+--- Executing SBB (Solvelink=2): elapsed 0:00:16.076
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 576 rows, 2714 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -431,7 +431,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Nonlinear constraint violn    7.7E-07
 
  Solution not printed
- Time for solving problem                       0.12 seconds
+ Time for solving problem                       0.06 seconds
  Time for constraint functions                  0.00 seconds
  Time for objective function                    0.00 seconds
 
@@ -456,7 +456,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Integer solution
  Statistics:
     Iterations    :              9659
-    NLP Seconds   :          1.030000
+    NLP Seconds   :          1.048001
     B&B nodes     :                15
     MIP solution  :          0.537831 found in node 12
     Best possible :          0.537831
@@ -479,7 +479,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          0
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:00:17.191
+--- Executing after solve: elapsed 0:00:17.185
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -493,13 +493,13 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.690E-18, 6.000E+02] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:00:17.198
+--- Executing SBB (Solvelink=2): elapsed 0:00:17.192
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 577 rows, 2730 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -585,7 +585,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Integer solution
  Statistics:
     Iterations    :              7453
-    NLP Seconds   :        134.176000
+    NLP Seconds   :        130.325000
     B&B nodes     :                 6
     Ignored nodes :                 1
     MIP solution  :          0.549276 found in node 5
@@ -603,7 +603,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          1
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:02:31.440
+--- Executing after solve: elapsed 0:02:27.569
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -617,13 +617,13 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 9.153E-17, 6.000E+02] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:02:31.448
+--- Executing SBB (Solvelink=2): elapsed 0:02:27.577
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 578 rows, 2746 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -706,7 +706,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Integer solution
  Statistics:
     Iterations    :              8668
-    NLP Seconds   :          1.888000
+    NLP Seconds   :          1.959000
     B&B nodes     :                 9
     MIP solution  :          0.530675 found in node 6
     Best possible :          0.530675
@@ -723,7 +723,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          0
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:02:33.408
+--- Executing after solve: elapsed 0:02:29.687
 --- Case2_CBS.gms(647) 4 Mb
 --- Generating MINLP model N2
 --- Case2_CBS.gms(648) 6 Mb
@@ -737,13 +737,13 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 --- Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 --- Matrix    [min, max] : [ 7.410E-18, 6.000E+02] - Zero values observed as well
 --- Case2_CBS.gms(648) 4 Mb
---- Executing SBB (Solvelink=2): elapsed 0:02:33.415
+--- Executing SBB (Solvelink=2): elapsed 0:02:29.694
 
-Simple B&B       41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+Simple B&B       42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
  523 columns (46 discrete), 579 rows, 2762 nonzeros
 
-SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux    
+SNOPT            42.3.0 dacf7d8e Mar 2, 2023           LEG x86 64bit/Linux    
 
 
  ==============================
@@ -803,7 +803,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
 
  Solution not printed
  Time for solving problem                       0.06 seconds
- Time for constraint functions                  0.06 seconds
+ Time for constraint functions                  0.00 seconds
  Time for objective function                    0.00 seconds
 
  Root node solved locally optimal.
@@ -827,7 +827,7 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
  Solution satisfies optcr
  Statistics:
     Iterations    :              6073
-    NLP Seconds   :          3.120000
+    NLP Seconds   :          3.140001
     B&B nodes     :                15
     MIP solution  :          0.523349 found in node 9
     Best possible :          0.523349
@@ -848,12 +848,12 @@ SNOPT            41.1.0 1682d454 Oct 28, 2022          LEG x86 64bit/Linux
       # failures          0
  Terminating.
 --- Reading solution for model N2
---- Executing after solve: elapsed 0:02:36.597
+--- Executing after solve: elapsed 0:02:32.901
 --- Case2_CBS.gms(647) 4 Mb--- Case2_CBS.gms(663) 4 Mb
 --- GDX File (execute_unload) /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_CBS85.gdx
 *** Status: Normal completion
---- Job Case2_CBS.gms Stop 05/09/24 08:44:28 elapsed 0:02:36.642
+--- Job Case2_CBS.gms Stop 05/09/24 15:49:51 elapsed 0:02:32.948
 
-Execution Time : ce-l208 : User 156.18  System 0.09  Elapsed 2:36.68
+Execution Time : ce-l208 : User 152.45  System 0.09  Elapsed 2:32.97
 
 done

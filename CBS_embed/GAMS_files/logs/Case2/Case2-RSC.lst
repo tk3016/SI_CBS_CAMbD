@@ -1,4 +1,4 @@
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 1
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 1
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 C o m p i l a t i o n
 
@@ -600,8 +600,8 @@ C o m p i l a t i o n
  605  execute_unload "Case2_RSC.gdx" yieldk,xi_sk,Tk,yk,xk,nmk,nmtk,stab12,v_sk
 
 
-COMPILATION TIME     =        0.005 SECONDS      3 MB  41.1.0 1682d454 LEX-LEG
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 2
+COMPILATION TIME     =        0.005 SECONDS      3 MB  42.3.0 dacf7d8e LEX-LEG
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 2
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 E x e c u t i o n
 
@@ -615,7 +615,7 @@ water      1.4000,    n-pentane  3.3160,    n-heptane  4.3960,    ethanol    2.5
 
 water      0.9200,    n-pentane  3.8254,    n-heptane  5.1742,    ethanol    2.5755,    1-propanol 3.2499,    1-butanol  3.9243,    1-pentanol 4.5987,    acetone    2.5735
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 3
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 3
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -626,7 +626,7 @@ RHS       [min, max] : [ 1.000E+00, 1.001E+03] - Zero values observed as well
 Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 Matrix    [min, max] : [ 2.024E-10, 2.723E+04] - Zero values observed as well
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 4
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 4
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -642,10 +642,10 @@ NON ZERO ELEMENTS         3,424     NON LINEAR N-Z          2,644
 CODE LENGTH               6,312     CONSTANT POOL              88     DISCRETE VARIABLES         46
 
 
-GENERATION TIME      =        0.087 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+GENERATION TIME      =        0.095 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
                L O O P S                ics 1
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 5
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 5
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE N2 Using MINLP From line 590
 
@@ -660,7 +660,7 @@ Solution Report     SOLVE N2 Using MINLP From line 590
 **** MODEL STATUS      8 Integer Solution
 **** OBJECTIVE VALUE                0.9988
 
- RESOURCE USAGE, LIMIT          2.366      3600.000
+ RESOURCE USAGE, LIMIT          2.186      3600.000
  ITERATION COUNT, LIMIT      1846      10000000
  EVALUATION ERRORS              0           100
 *** Error Cannot open parameter file "/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/sbb.opt"
@@ -2199,7 +2199,7 @@ s2       .H2O            .             1.0000        10.0000          .
                              0 INFEASIBLE
                              0  UNBOUNDED
                              0     ERRORS
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 6
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 6
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -2210,7 +2210,7 @@ RHS       [min, max] : [ 1.000E+00, 1.001E+03] - Zero values observed as well
 Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 Matrix    [min, max] : [ 1.093E-20, 2.801E+04] - Zero values observed as well
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 7
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 7
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -2226,10 +2226,10 @@ NON ZERO ELEMENTS         3,440     NON LINEAR N-Z          2,644
 CODE LENGTH               6,311     CONSTANT POOL              88     DISCRETE VARIABLES         46
 
 
-GENERATION TIME      =        0.009 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+GENERATION TIME      =        0.009 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
                L O O P S                ics 2
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 8
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 8
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE N2 Using MINLP From line 590
 
@@ -2244,7 +2244,7 @@ Solution Report     SOLVE N2 Using MINLP From line 590
 **** MODEL STATUS      8 Integer Solution
 **** OBJECTIVE VALUE                0.9986
 
- RESOURCE USAGE, LIMIT          0.192      3600.000
+ RESOURCE USAGE, LIMIT          0.161      3600.000
  ITERATION COUNT, LIMIT       973      10000000
  EVALUATION ERRORS              0           100
 *** Error Cannot open parameter file "/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/sbb.opt"
@@ -3787,7 +3787,7 @@ s2       .H2O            .             1.0000        10.0000          .
                     MEAN   6.3049438E-7
                              0  UNBOUNDED
                              0     ERRORS
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 9
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 9
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -3798,7 +3798,7 @@ RHS       [min, max] : [ 1.000E+00, 1.001E+03] - Zero values observed as well
 Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 Matrix    [min, max] : [ 1.155E-20, 2.724E+04] - Zero values observed as well
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 10
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 10
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -3814,10 +3814,10 @@ NON ZERO ELEMENTS         3,456     NON LINEAR N-Z          2,644
 CODE LENGTH               6,311     CONSTANT POOL              88     DISCRETE VARIABLES         46
 
 
-GENERATION TIME      =        0.008 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+GENERATION TIME      =        0.008 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
                L O O P S                ics 3
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 11
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 11
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE N2 Using MINLP From line 590
 
@@ -3832,7 +3832,7 @@ Solution Report     SOLVE N2 Using MINLP From line 590
 **** MODEL STATUS      8 Integer Solution
 **** OBJECTIVE VALUE                0.9972
 
- RESOURCE USAGE, LIMIT          0.607      3600.000
+ RESOURCE USAGE, LIMIT          0.500      3600.000
  ITERATION COUNT, LIMIT      3769      10000000
  EVALUATION ERRORS              0           100
 *** Error Cannot open parameter file "/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/sbb.opt"
@@ -5373,7 +5373,7 @@ s2       .H2O            .             1.0000        10.0000          .
                              0 INFEASIBLE
                              0  UNBOUNDED
                              0     ERRORS
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 12
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 12
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -5384,7 +5384,7 @@ RHS       [min, max] : [ 1.000E+00, 1.001E+03] - Zero values observed as well
 Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 Matrix    [min, max] : [ 2.740E-20, 1.230E+04] - Zero values observed as well
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 13
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 13
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -5400,10 +5400,10 @@ NON ZERO ELEMENTS         3,472     NON LINEAR N-Z          2,644
 CODE LENGTH               6,311     CONSTANT POOL              88     DISCRETE VARIABLES         46
 
 
-GENERATION TIME      =        0.008 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+GENERATION TIME      =        0.008 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
                L O O P S                ics 4
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 14
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 14
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE N2 Using MINLP From line 590
 
@@ -5418,7 +5418,7 @@ Solution Report     SOLVE N2 Using MINLP From line 590
 **** MODEL STATUS      8 Integer Solution
 **** OBJECTIVE VALUE                0.8113
 
- RESOURCE USAGE, LIMIT          2.473      3600.000
+ RESOURCE USAGE, LIMIT          2.336      3600.000
  ITERATION COUNT, LIMIT      8992      10000000
  EVALUATION ERRORS              0           100
 *** Error Cannot open parameter file "/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/sbb.opt"
@@ -6960,7 +6960,7 @@ s2       .H2O            .       7.412320E-16        10.0000          .
                              0 INFEASIBLE
                              0  UNBOUNDED
                              0     ERRORS
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 15
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 15
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Range Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -6971,7 +6971,7 @@ RHS       [min, max] : [ 1.000E+00, 1.001E+03] - Zero values observed as well
 Bound     [min, max] : [ 1.000E-10, 2.000E+03] - Zero values observed as well
 Matrix    [min, max] : [ 2.119E-17, 6.000E+02] - Zero values observed as well
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 16
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 16
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Model Statistics    SOLVE N2 Using MINLP From line 590
 
@@ -6987,10 +6987,10 @@ NON ZERO ELEMENTS         3,488     NON LINEAR N-Z          2,644
 CODE LENGTH               6,311     CONSTANT POOL              88     DISCRETE VARIABLES         46
 
 
-GENERATION TIME      =        0.009 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+GENERATION TIME      =        0.008 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
                L O O P S                ics 5
 
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 17
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 17
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 Solution Report     SOLVE N2 Using MINLP From line 590
 
@@ -7005,7 +7005,7 @@ Solution Report     SOLVE N2 Using MINLP From line 590
 **** MODEL STATUS      8 Integer Solution
 **** OBJECTIVE VALUE                0.8727
 
- RESOURCE USAGE, LIMIT          0.233      3600.000
+ RESOURCE USAGE, LIMIT          0.280      3600.000
  ITERATION COUNT, LIMIT      2211      10000000
  EVALUATION ERRORS              0           100
 *** Error Cannot open parameter file "/home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/sbb.opt"
@@ -8548,12 +8548,12 @@ s2       .H2O            .              .            10.0000          .
                              0 INFEASIBLE
                              0  UNBOUNDED
                              0     ERRORS
-GAMS 41.1.0  1682d454 Oct 28, 2022          LEX-LEG x86 64bit/Linux - 05/09/24 08:40:51 Page 18
+GAMS 42.3.0  dacf7d8e Mar 2, 2023           LEX-LEG x86 64bit/Linux - 05/09/24 15:44:18 Page 18
 G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
 E x e c u t i o n
 
 
-EXECUTION TIME       =        6.440 SECONDS      4 MB  41.1.0 1682d454 LEX-LEG
+EXECUTION TIME       =        6.096 SECONDS      4 MB  42.3.0 dacf7d8e LEX-LEG
 
 
 USER: Medium MUD - 10 User License                   S230530|0002AP-LNX
@@ -8564,4 +8564,4 @@ USER: Medium MUD - 10 User License                   S230530|0002AP-LNX
 **** FILE SUMMARY
 
 Input      /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_RSC.gms
-Output     /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_RSC.2751218.lst
+Output     /home/ps/ce-fs2/tk3016/proper_comparison/classifier/Process/Paper/Case2_RSC.2751249.lst
